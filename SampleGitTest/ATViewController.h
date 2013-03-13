@@ -10,4 +10,9 @@
 
 @interface ATViewController : UIViewController
 
+@property (readonly, strong) IBOutlet UILabel* label;
+@property (strong) IBOutlet UIButton* button;
+
+-(IBAction)OnButtonClick:(id)sender;
+
 @end

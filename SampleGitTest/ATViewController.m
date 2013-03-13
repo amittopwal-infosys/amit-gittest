@@ -14,6 +14,8 @@
 
 @implementation ATViewController
 
+@synthesize label,button;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -31,4 +33,8 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+-(IBAction)OnButtonClick:(id)sender
+{
+    [label setText:@"Hello"];
+}
 @end
