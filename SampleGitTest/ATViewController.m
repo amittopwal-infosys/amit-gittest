@@ -30,6 +30,7 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+//Defines what happens on button click
 -(IBAction)OnButtonClick:(id)sender
 {
     [label setText:@"Hello"];
